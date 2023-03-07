@@ -1,3 +1,4 @@
+"""A simple web app made to welcome users with the use of Flask framework."""
 from flask import Flask, request, render_template
 
 app = Flask(__name__, template_folder="template")
