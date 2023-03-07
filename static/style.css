@@ -1,0 +1,32 @@
+body {
+    background-color:rgb(75, 75, 75);
+    font-size: 25px;
+    padding: 50px;
+    font-family: Helvetica;
+    font-weight:bold;
+
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 25px 0;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    font-size: 20px;
+    font-family:Helvetica;
+  }
+
+input[type=submit] {
+    padding:10px 20px; 
+    background:rgb(27, 27, 27); 
+    color: white;
+    border-color:black;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: Helvetica;
+}
