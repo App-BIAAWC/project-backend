@@ -1,8 +1,13 @@
 from flask import Flask, request, render_template
+import sys
 
 app = Flask(__name__, template_folder="template")
 
+def print_python_version():
+    """Function printing python version."""
+    print(sys.version)
 
+    
 @app.route("/")
 def welcome():
     return render_template("welcome.html")
