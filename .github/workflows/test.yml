@@ -17,4 +17,4 @@ jobs:
           pip install flask
       - name: Test app
         run: |
-          pylint app/app.py
+          pylint main.py
