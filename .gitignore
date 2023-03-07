@@ -1,7 +1,11 @@
 __pycache__/
-venv/
 *.pyc
+*.pyo
 *.egg-info/
+dist/
+build/
 *.egg
-.idea/
-.vscode/
+*.log
+*.swp
+*.swo
+.env
