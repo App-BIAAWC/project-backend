@@ -3,14 +3,18 @@ from flask import Flask, request, render_template
 
 app = Flask(__name__, template_folder="template")
 
+print("Server is running.")
+
 @app.route("/")
 def welcome():
+    print("Index website opened")
     """A single welcome to the user."""
     return render_template("welcome.html")
 
 
 @app.route("/hello", methods=["GET", "POST"])
 def hello():
+    print("Hello website opened")
     """A personalized welcome to the user."""
     if request.method == "POST":
         user_name = request.form.get("name")
