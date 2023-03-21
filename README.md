@@ -1,6 +1,6 @@
 # project-backend
 
-A simple web app made to welcome users with the use of Flask framework. Backend part.
+A simple web app made to welcome users with the use of Flask framework. This is the backend part.
 
 # how to start
 
