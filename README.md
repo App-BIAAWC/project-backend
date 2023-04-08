@@ -14,8 +14,8 @@ A simple web app made to welcome users with the use of Flask framework. This is 
   
   # locust testing
   
-  1. Complete "how to start".
+  1. Complete `how to start`.
   2. Start local environment. You can use command: `pip install pipenv` and run using: `pipenv shell`.
   3. Start new terminal and use command: `pip install locust`.
   4. Run locust using command: `locust`.
-  5. Use the web browser and pase a link: `http://localhost:8089`.
+  5. Use the web browser and paste a link: `http://localhost:8089`.
